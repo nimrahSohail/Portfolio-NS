@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently working on backend development",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,35 +72,35 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    title: "Exercise Explorer",
+    des: "Platform to access personalized exercise recommendations and start your fitness journey with clear instructions.",
+    img: "/exercise.png",
+    iconLists: ["/re.svg", "/tail.svg", "/mui.svg"],
+    link: "https://github.com/nimrahSohail/Exercise-Explorer",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    title: "Recipe Portal App",
+    des: "From delicious meals to sweet treats, find easy-to-follow guides and yummy pictures.",
+    img: "/recipe.png",
+    iconLists: ["/re.svg", "/fm.svg"],
+    link: "https://github.com/nimrahSohail/Recipe-Portal",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    title: "Hangman Game Application",
+    des: "Test your vocabulary and sharpen your reflexes in this interactive Hangman experience.",
+    img: "/hangman.png",
+    iconLists: ["/re.svg", "/tail.svg"],
+    link: "https://github.com/nimrahSohail/Hangman-Game",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    title: "Youtube-Clone Web App",
+    des: "A platform designed to emulate the popular video-sharing and streaming service.",
+    img: "/youtube-clone.png",
+    iconLists: ["/re.svg", "/mui.svg"],
+    link: "https://github.com/nimrahSohail/Youtube-Clone",
   },
 ];
 
@@ -180,22 +180,22 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Analytics Content Engineer Intern",
+    desc: "Researched on Data Analytics, Data Science and Machine Learning.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Freelance Web Dev Project",
+    desc: "Led the dev of a web app for a client, from initial concept to deployment on web.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Participation in competitions",
+    desc: "Developed and maintained user-facing features using modern frontend technologies to compete others.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -205,13 +205,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/nimrahsohail"
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/NimrahSoha83489"
   },
   {
     id: 3,
     img: "/link.svg",
+    link:"https://www.linkedin.com/in/nimrah-sohail12/"
   },
 ];
