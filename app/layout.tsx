@@ -17,19 +17,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-            <head>
+      {/* logo */}
+      <head>
         <link rel="icon" href="/logo.svg" sizes="any" />
       </head>
       <body className={inter.className}>
-      <ThemeProvider
-            attribute="class"
-            defaultTheme="dark"
-            enableSystem
-            disableTransitionOnChange
-          >
-            {children}
-          </ThemeProvider>
-          </body>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
